@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+body {
+  background: #d4d4d4;
+  font-family: "Roboto", sans-serif;
+}
+
+.socialCard {
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.handle {
+  color: #6f6f6f;
+}

@@ -5,13 +5,50 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+main {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 8px;
+}
+
 .socialCard {
+  display: flex;
+
+  width: 388px;
+  height: 160px;
   margin: 10px;
-  padding: 20px;
+  padding: 16px;
   background-color: #fff;
-  border-radius: 10px;
+  border-radius: 16px;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+.pic {
+  position: static;
+  width: 128px;
+  height: 128px;
+  left: 16px;
+  right: 16px;
+}
+
+.cred {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 0% 0% 0% 5%;
+
+  position: static;
+  width: 240px;
+  height: 128px;
+  left: 168px;
+  top: 16px;
 }
 
 .handle {
   color: #6f6f6f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
